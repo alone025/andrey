@@ -1,0 +1,29 @@
+:root{
+    ---violet:#8A64CE;
+    ---black:#454747;
+    ---lightviolet:#3C336C;
+    ---darkblack: #222227;
+    ---link:#272525;
+    ---darkViolet:#524983;
+}
+
+@font-face {
+    font-family: OBaby;
+    src: url(../assets/fonts/OoohBaby-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(../assets/fonts/Gilroy-Medium.woff2) format('woff2');
+}
+
+  
+
+:root {
+    ---OBaby: 'OBaby', serif;
+    ---Gilroy: 'Gilroy', serif;
+    ---Mulish: "Mulish", serif;
+    ---RobotoFlex: "Roboto Flex", serif;
+    ---Montserrat: "Montserrat", serif;
+    ---Roboto: "Roboto", serif;
+}

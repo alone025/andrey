@@ -1,0 +1,247 @@
+.nav-div {
+  display: flex;
+  flex-direction: column;
+  padding-top: 43px;
+}
+
+.nav-div .top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+}
+
+.nav-div .top-nav .lft-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav-div .top-nav .lft-logo h1 {
+  color: var(---lightviolet);
+  font-family: var(---OBaby);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.5px;
+  text-transform: lowercase;
+}
+
+.nav-div .top-nav .centre-search {
+  position: relative;
+  width: 100%;
+  max-width: 596px;
+}
+
+.nav-div .top-nav .centre-search svg {
+  display: none;
+}
+
+.nav-div .top-nav .centre-search input {
+  padding: 18px 28px;
+  padding-left: 70px;
+  border-radius: 90px;
+  border: 2px solid rgba(85, 83, 86, 0.15);
+  outline: none;
+  width: 100%;
+  background: transparent;
+
+  color: #8e8e8e;
+  font-family: var(---Gilroy);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 105.5%;
+}
+
+.nav-div .top-nav .centre-search img {
+  position: absolute;
+  left: 28px;
+  top: 18px;
+}
+
+.nav-div .top-nav .end-btns {
+  display: flex;
+  flex-direction: row;
+  gap: 57px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-div .top-nav .end-btns button {
+  border-radius: 90px;
+  background: var(---violet);
+  padding: 20.5px 62px;
+
+  color: #eef1f6;
+  font-family: "Mulish", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105.5%;
+
+  outline: none;
+  border: none;
+}
+
+.nav-div .top-nav .end-btns .lang-select p {
+  font-family: var(---Gilroy);
+  font-size: 18px;
+  font-style: normal;
+  line-height: 105.5%;
+
+  color: #8e8e8e;
+  font-weight: 400;
+}
+
+.nav-div .top-nav .end-btns .lang-select p span:nth-child(1) {
+  color: var(---link);
+  font-weight: 600;
+}
+
+.nav-div nav {
+  display: flex;
+  width: 100%;
+  margin-top: 45px;
+  /* background: rgba(250, 251, 253, 0.44); */
+  position: relative;
+  height: 100px;
+}
+
+.nav-div nav .imgbnr img {
+  position: absolute;
+  right: -11%;
+  width: auto;
+}
+
+.nav-div nav .imgbnr .scnd-bg {
+  position: absolute;
+  left: -11%;
+  width: 100%;
+  z-index: -1;
+  height: 100px;
+  background: rgba(250, 251, 253, 0.44);
+}
+
+.nav-div nav .links {
+  display: flex;
+  flex-direction: row;
+  padding: 0 42px;
+  align-items: center;
+  gap: 63px;
+}
+
+.nav-div nav .links .linke {
+  position: relative;
+}
+
+.nav-div nav .links .linke a {
+  color: var(---link);
+  font-family: var(---RobotoFlex);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105.5%;
+  z-index: 1;
+  position: relative;
+
+
+}
+
+.nav-div nav .links .linke a.actv {
+  color: white;
+  display: block;
+  width: 187px;
+  text-align: center;
+}
+
+.nav-div nav .links .linke .bg-lnk {
+  border-radius: 6px;
+  background: var(---link);
+  position: absolute;
+  height: 100px;
+  width: 187px;
+  top: -41px;
+  left: -0;
+  box-shadow: 0px 16.057px 20.071px -4.014px rgba(26, 32, 44, 0.1),
+    0px 8.028px 8.028px -4.014px rgba(26, 32, 44, 0.04);
+}
+
+.nav-div nav .links .linke .bg-lnk .dline {
+  width: 100%;
+  height: 8px;
+  background: var(---link);
+  position: absolute;
+  bottom: -18px;
+  border-radius: 6px;
+}
+
+
+
+
+@media screen and (max-width: 1092px){
+
+  .nav-div nav {
+    display: none;
+  }
+  .nav-div .top-nav .end-btns{
+    display: none;
+  }
+
+  .nav-div .top-nav .centre-search{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    justify-content: end;
+    width: auto;
+  }
+  .nav-div .top-nav .centre-search input, .centre-search img {
+    display: none;
+  }
+
+  .nav-div .top-nav .centre-search svg {
+    width: 30px;
+    height: 30px;
+    display: block;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 480px){
+  .nav-div{
+    padding-top: 12px;
+  }
+  .nav-div .top-nav .lft-logo h1{
+    font-size: 18px;
+  }
+
+  .nav-div .top-nav .lft-logo img {
+    width: 45px;
+  }
+
+  .nav-div .top-nav .lft-logo{
+    gap: 12px;
+  }
+
+  .nav-div .top-nav .centre-search svg {
+    width: auto;
+    height: auto;
+  }
+
+  .bg-navbar {
+    background: rgba(250, 251, 253, 0.44);
+    position: absolute;
+    height: 48px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}

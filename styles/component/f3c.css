@@ -1,0 +1,7 @@
+section.f3c  .f3c-content{
+    padding-top: 0;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 50px;
+}

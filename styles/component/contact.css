@@ -1,0 +1,238 @@
+section.contact {
+    position: relative;
+    margin-top: 90px;
+    padding-bottom: 80px;
+}
+
+section.contact .bg-contact{
+    position: absolute;
+    z-index: -1;
+    top: -40px;
+}
+
+section.contact .container {
+    display: flex;
+    flex-direction: column;
+}
+
+section.contact .tpe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.contact .tpe .lft{
+    max-width: 643px;
+}
+
+
+section.contact .tpe .lft h3{
+    color: #222227;
+font-family: var(---Montserrat);
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; 
+letter-spacing: 0.72px;
+
+margin-bottom: 17px;
+}
+
+section.contact .tpe .lft h3 span {
+    text-transform: uppercase;
+}
+
+section.contact .tpe .lft p {
+    color:  #272525;
+font-family: var(---Mulish);
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+letter-spacing: 0.6px;
+}
+
+section.contact .tpe .rfgt {
+    width: 43%;
+    position: relative;
+
+}
+
+section.contact .tpe .rfgt img:nth-child(2),
+section.contact .tpe .rfgt img:nth-child(3),
+section.contact .tpe .rfgt img:nth-child(4){
+    position: absolute;
+}
+
+section.contact .tpe .rfgt img:nth-child(2){
+    left: -170px;
+    bottom: 35px;
+}
+
+section.contact .tpe .rfgt img:nth-child(3)
+{
+top: 35px;
+right: 35px;
+}
+
+section.contact .tpe .rfgt img:nth-child(4){
+
+    left: -150px;
+    bottom: -25px;
+}
+
+
+section.contact .btme {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+section.contact .btme .plt h4{
+    color: #222227;
+    font-family: var(---Montserrat);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; 
+
+    max-width: 642px;
+}
+
+section.contact .btme .plb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section.contact .btme .plb .inp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 35px;
+    width: 75%;
+}
+
+section.contact .btme .plb .inp input {
+    background: transparent;
+    outline: none;
+    border: none;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #272525;
+    color:  #454747;
+font-family: var(---Mulish);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+max-width: 336px;
+width: 100%;
+}
+
+section.contact .btme .plb button {
+    border-radius: 90px;
+background: #8A64CE;
+padding: 17px 62px;
+
+color: #EEF1F6;
+font-family: var(---Mulish);
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 105.5%;
+border: none;
+outline: none;
+}
+
+
+
+
+@media screen and (max-width:480px) {
+    section.contact{
+        margin-top: 30px;
+    }
+    section.contact .tpe{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    section.contact .tpe .rfgt{
+        width: 100%;
+        top: -20px;
+        display: flex;
+        justify-content: center;
+    }
+    section.contact .tpe .rfgt img:nth-child(1){
+        max-width: 242px;
+    }
+
+    section.contact .tpe .rfgt img:nth-child(2){
+        max-width: 35px;
+    }
+
+    section.contact .tpe .rfgt img:nth-child(3){
+        max-width: 50px;
+    }
+    section.contact .bg-contact{
+        top: -22px;
+    }
+    section.contact .bg-contact svg{
+        width: 230%;
+    }
+
+    section.contact .tpe .lft h3{
+        text-align: center;
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
+    section.contact .tpe .lft p{
+        font-size: 15px;
+        margin-bottom: 83px;
+    }
+    section.contact .btme .plt h4{
+        font-size: 18px;
+        line-height: normal;
+    }
+    section.contact .btme{
+        flex-direction: column;
+        gap: 59px;
+    }
+    section.contact .btme .plb {
+    flex-direction: column;
+    gap: 40px;
+    }
+
+    section.contact .btme .plb .inp {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    section.contact .btme .plb button{
+        font-size: 16px;
+        padding: 19px 68px;
+    }
+
+    section.contact .tpe .rfgt img:nth-child(3){
+        left: -16px;
+        top: auto;
+        bottom: -45px;
+    }
+    section.contact .tpe .rfgt img:nth-child(2){
+        left: auto;
+        bottom: -15px;
+        right: -15px;
+    }
+    section.contact .tpe .rfgt img:nth-child(4) {
+        bottom: -114%;
+        left: auto;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    section.contact .tpe .rfgt img:nth-child(4) {
+        bottom: -140%;
+        left: auto;
+    }
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url(./base.css);
+@import url(./variables.css);
+
+
+/* Navbar */
+
+@import url(./component/navbar.css);
+
+/* Header */
+
+@import url(./component/header.css);
+
+/* First content */
+
+
+@import url(./component/f1c.css);
+
+/* Second content */
+
+@import url(./component/f2c.css);
+
+/* Third content */
+
+@import url(./component/f3c.css);
+
+
+/* Fourth content */
+
+@import url(./component/f4.css);
+
+/* Footer */
+
+@import url(./component/footer.css);
+
+
+
+/* Global */
+
+.bg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+
+}
+
+.bg img {
+    height: 1155px;
+    object-fit: cover;
+    width: 100%;
+    opacity: .6;
+}
+
+.bg-none {
+    background: transparent !important;
+}
+
+/* Svg containers */
+
+.svg-cont1 {
+    position: relative;
+}
+
+.svg-cont1 svg {
+    position: absolute;
+    z-index: 1;
+    left: 43%;
+    top: -190px;
+}
+
+
+
+.svg-cont2 {
+    position: relative;
+}
+
+.svg-cont2 svg {
+    position: absolute;
+    z-index: 1;
+    left: 38%;
+    top: -180px;
+}
+
+
+
+.svg-cont3 {
+    position: relative;
+}
+
+.svg-cont3 svg {
+    position: absolute;
+    z-index: 1;
+    left: 28%;
+    top: -254px;
+}

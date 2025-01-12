@@ -1,0 +1,118 @@
+section.prizes {
+  margin-top: 24px;
+  position: relative;
+}
+
+section.prizes .bg-priz {
+  position: absolute;
+  z-index: -1;
+  top: 35px;
+}
+
+section.prizes .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 50px;
+}
+
+section.prizes .container .ctxt {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  margin-top: 25px;
+}
+
+section.prizes .container .ctxt h3 {
+  color: #272525;
+  font-family: var(---Montserrat);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+}
+
+section.prizes .container .ctxt p {
+  color: #272525;
+  font-family: var(---Mulish);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.6px;
+
+  max-width: 711px;
+}
+
+section.prizes .container .ebtn {
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+  margin-top: 30px;
+}
+
+section.prizes .container .ebtn button:nth-child(1) {
+  border-radius: 90px;
+  background: #000;
+  padding: 17px 62px;
+
+  color: #eef1f6;
+  font-family: var(---Mulish);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105.5%;
+}
+
+section.prizes .container .ebtn button:nth-child(2) {
+  border-radius: 60px;
+  border: 1px solid #eef1f6;
+  background: #eef1f6;
+  padding: 17px 62px;
+
+  color: #272525;
+  text-align: center;
+  font-family: var(---Montserrat);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  max-width: 280px;
+  width: 100%;
+}
+
+
+
+@media screen and (max-width: 480px) {
+  section.prizes .container .ctxt h3{
+    font-size: 19px;
+  }
+  section.prizes .container .ctxt p {
+    font-size: 15px;
+  }
+  section.prizes .container .ctxt{
+    gap: 20px;
+  }
+  section.prizes .container .lfet .tpl svg {
+    width: 45px;
+  }
+  section.prizes .container .ctxtP{
+  margin-top: 23px;
+  }
+
+  section.prizes .container .ebtn {
+    display: flex;
+    flex-direction: column;
+  }
+  section.prizes .container{
+    flex-direction: column  ;
+    gap: 30px;
+  }
+  section.prizes .container .divemg img {
+    width: 372px;
+  }
+  section.prizes .container .ebtn button:nth-child(2) {
+    max-width: unset;
+  }
+}

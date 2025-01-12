@@ -1,0 +1,18 @@
+section.f2c {
+  position: relative;
+}
+
+section.f2c .bg-f2c {
+  position: absolute;
+  top: 145px;
+}
+
+
+section.f2c .f2c-content {
+    padding-top: 29px;
+}
+
+
+section.f2c .f2c-content .bg-none {
+    background: transparent !important;
+}

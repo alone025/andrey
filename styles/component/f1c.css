@@ -1,0 +1,167 @@
+section.f1c {
+  position: relative;
+}
+
+section.f1c .bg-p {
+  position: absolute;
+}
+
+section.f1c .f1c-cont {
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 99px;
+}
+
+section.f1c .f1c-cont .lft-fc {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+section.f1c .f1c-cont .lft-fc .bread-crumb {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 35px;
+  gap: 20px;
+}
+
+section.f1c .f1c-cont .lft-fc .bread-crumb p.p1 {
+  color: rgba(39, 37, 37, 0.75);
+  text-align: center;
+  font-family: var(---Mulish);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 105.5%;
+}
+
+section.f1c .f1c-cont .lft-fc .bread-crumb p.p2 {
+  color: #8a64ce;
+  text-align: center;
+  font-family: var(---Mulish);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 105.5%;
+}
+
+section.f1c .f1c-cont .lft-fc .bread-crumb .lined {
+  width: 1px;
+  background: #000;
+}
+
+section.f1c .f1c-cont .lft-fc .txt1 h4 {
+  color: #272525;
+  font-family: var(---Montserrat);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+
+  margin-bottom: 10px;
+}
+
+section.f1c .f1c-cont .lft-fc .txt1 p {
+  color: #272525;
+  font-family: var(---Mulish);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.6px;
+  max-width: 648px;
+}
+
+section.f1c .f1c-cont .lft-fc .txt1 .title-txt1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 34px;
+}
+
+section.f1c .f1c-cont .lft-fc .txt2 h4 {
+  color: #272525;
+  font-family: var(---Montserrat);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+
+  margin-bottom: 23px;
+  margin-top: 53px;
+}
+
+section.f1c .f1c-cont .lft-fc .txt2 h4 span {
+  color: #8a64ce;
+}
+
+section.f1c .f1c-cont .lft-fc .txt2 p {
+  color: #272525;
+  font-family: var(---Mulish);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.6px;
+
+  max-width: 711px;
+}
+
+section.f1c .f1c-cont .lft-fc .btns-s {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+  align-items: center;
+}
+
+section.f1c .f1c-cont .lft-fc .btns-s button:nth-child(1) {
+  padding: 18px 62px;
+
+  border-radius: 90px;
+  background: #000;
+
+  outline: none;
+  border: none;
+
+  color: #eef1f6;
+  font-family: var(---Mulish);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105.5%;
+}
+
+section.f1c .f1c-cont .lft-fc .btns-s button:nth-child(2) {
+  border-radius: 60px;
+  background: #eef1f6;
+  padding: 16px 30px;
+  outline: none;
+  border: none;
+
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+
+  color: #272525;
+  text-align: center;
+  font-family: var(---Montserrat);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+section.f1c .f1c-cont .lft-fc .btns-s button:nth-child(2) .line-bt {
+  background: rgba(0, 0, 0, 0.3);
+  width: 40px;
+  height: 1px;
+}
