@@ -139,6 +139,10 @@ section.twoimage .circle2 {
   right: -36px;
 }
 
+section.twoimage .rgt .tp.tp20{
+  display: none;
+}
+
 @media screen and (max-width: 480px) {
   section.twoimage .container {
     display: flex;
