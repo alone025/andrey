@@ -147,9 +147,13 @@ section.twoimage .rgt .tp.tp20{
   section.twoimage .container {
     display: flex;
     flex-direction: column;
+
+    gap: 35px;
   }
   section.twoimage .lft {
     width: 100%;
+
+    gap: 11px;
   }
   section.twoimage .lft .imger img {
     height: auto;
@@ -181,8 +185,22 @@ section.twoimage .rgt .tp.tp20{
 
   section.twoimage .rgt .img {
     margin-top: 25px;
+    gap: 20px;
   }
   section.twoimage .rgt .img img {
-    max-width: 130px;
+    /* max-width: 130px; */
+    width: 45%;
   }
+  section.twoimage .rgt .img img:nth-child(3){
+    display: none;
+  }
+
+  section.twoimage .lft .tpe p{
+    font-size: 14px;
+  }
+
+  section.twoimage .lft .tpe{
+    justify-content: space-between;
+  }
+  
 }

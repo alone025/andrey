@@ -225,7 +225,9 @@ text-underline-position: from-font;
   display: none;
 }
 
-
+.footer .bg-fo svg:nth-child(2){
+  display: none;
+}
 
 
 
@@ -239,6 +241,10 @@ text-underline-position: from-font;
 @media screen and (max-width: 480px) {
   .lf.hd{
     display: block !important;
+  }
+
+  footer{
+    gap: 10px;
   }
     
   footer .toe .lf .cntl.mhd, footer .toe .lf .scl.mhd {
@@ -278,7 +284,7 @@ text-underline-position: from-font;
   }
   footer .toe .lf.hd .scl{
     justify-content: center;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
   }
   footer .toe .en{
     text-align: center;
@@ -304,5 +310,23 @@ text-underline-position: from-font;
   }
   footer .poe{
     flex-direction: column;
+    gap: 4px;
+    margin-bottom: 20px;
+  }
+
+  .footer .bg-fo svg:nth-child(1){
+    display: none;
+  }
+
+  .footer .bg-fo svg:nth-child(2){
+    display: block;
+  }
+
+  .footer .bg-fo{
+    top: -95px;
+  }
+
+  footer .toe .en p {
+    margin-bottom: 22px;
   }
 }

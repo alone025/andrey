@@ -82,9 +82,19 @@ section.prizes .container .ebtn button:nth-child(2) {
   width: 100%;
 }
 
+section.prizes .container .divemg img.mbd{
+  display: none;
+}
+
 
 
 @media screen and (max-width: 480px) {
+
+  section.prizes {
+    margin-top: 0;
+  }
+
+
   section.prizes .container .ctxt h3{
     font-size: 19px;
   }
@@ -104,15 +114,36 @@ section.prizes .container .ebtn button:nth-child(2) {
   section.prizes .container .ebtn {
     display: flex;
     flex-direction: column;
+
+    gap: 20px;
   }
   section.prizes .container{
     flex-direction: column  ;
     gap: 30px;
+
+    padding-top: 0px;
   }
-  section.prizes .container .divemg img {
+  section.prizes .container .divemg img.dck {
+    display: none;
+  }
+  section.prizes .container .divemg img.mbd {
     width: 372px;
+    display: block;
   }
   section.prizes .container .ebtn button:nth-child(2) {
     max-width: unset;
+  }
+
+  section.prizes .bg-priz {
+    display: none;
+  }
+
+  section.prizes .container .ebtn button:nth-child(1){
+    outline: none;
+    border: none;
+  }
+
+  section.prizes .container .ebtn button:nth-child(2){
+    font-weight: 700;
   }
 }
