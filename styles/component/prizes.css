@@ -135,7 +135,8 @@ section.prizes .container .divemg img.mbd{
   }
 
   section.prizes .bg-priz {
-    display: none;
+    top: auto;
+    bottom: -20px;
   }
 
   section.prizes .container .ebtn button:nth-child(1){

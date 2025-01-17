@@ -195,7 +195,7 @@ section.contact .bg-contact svg:nth-child(2) {
   }
   section.contact .tpe .lft p {
     font-size: 15px;
-    margin-bottom: 8px;
+    margin-bottom: 24px;
   }
   section.contact .btme .plt h4 {
     font-size: 18px;
@@ -238,7 +238,7 @@ section.contact .bg-contact svg:nth-child(2) {
   }
 
   section.contact .btw {
-    margin-bottom: 18px;
+    margin-bottom: 22px;
     display: flex;
     justify-content: center;
   }

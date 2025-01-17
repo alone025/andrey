@@ -266,9 +266,9 @@ section.popular .bg-p svg {
   }
 
   section.popular {
-    margin-bottom: 0px;
+    margin-bottom: 70px;
 
-    height: 720px;
+    height: auto;
   }
 
   section.popular .contenta .carde-card {
