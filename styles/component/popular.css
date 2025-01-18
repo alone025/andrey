@@ -226,13 +226,13 @@ section.popular .bg-p svg {
     justify-content: unset;
   }
   section.popular .tpe .lft .tpe-title h2 {
-    font-size: 19px;
+    font-size: 27px;
   }
   section.popular .tpe .lft .tpe-title svg {
-    width: 21px;
+    width: 25px;
   }
   section.popular .tpe .lft p {
-    font-size: 15px;
+    font-size: 18px;
   }
   section.popular .tpe .rgt p {
     display: none;

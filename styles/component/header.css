@@ -292,7 +292,7 @@ header.head-contentmb h2 {
   margin-top: 15px;
   color: #272525;
 font-family: var(---Montserrat);
-font-size: 30.339px;
+font-size: 35.339px;
 font-style: normal;
 font-weight: 700;
 line-height: 52px;
@@ -321,12 +321,12 @@ header.head-contentmb .bg-mk img {
 
 header.head-contentmb .bg-mk p {
   position: absolute;
-  top: 42%;
+  top: 44%;
   right: -20px;
 
   color: #3C336C;
 font-family: var(---OBaby);
-font-size: 19px;
+font-size: 22px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
