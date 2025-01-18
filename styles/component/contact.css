@@ -146,6 +146,9 @@ section.contact .bg-contact svg:nth-child(2) {
   }
 
 
+  section.contact .btw{
+    display: none;
+  }
 
 @media screen and (max-width: 480px) {
   section.contact {
@@ -249,4 +252,6 @@ section.contact .bg-contact svg:nth-child(2) {
     bottom: -140%;
     left: auto;
   }
+
+  
 }
