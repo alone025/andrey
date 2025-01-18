@@ -221,11 +221,13 @@
       #d9d9d9;
     /* background: linear-gradient(39deg, rgba(151, 150, 240, 0.70) -10.38%, rgba(255, 224, 232, 0.70) 107.56%); */
 
-    transition: transform 0.5s easy;
+    transition: all 0.5s;
   }
 
-  .nav-div .mobile-nav .ative {
+  .nav-div .mobile-nav.active {
     display: flex;
+    transition: all 0.5s;
+
   }
 
   .nav-div .mobile-nav {
@@ -297,4 +299,6 @@
 
     display: none;
   }
+
+
 }

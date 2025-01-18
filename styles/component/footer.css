@@ -329,4 +329,9 @@ text-underline-position: from-font;
   footer .toe .en p {
     margin-bottom: 22px;
   }
+  
+  footer .toe .lf .cntl p:nth-child(1) {
+    font-weight: 700 !important;
+    font-size: 17px;
+  }
 }
